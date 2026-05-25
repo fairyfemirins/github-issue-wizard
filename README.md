@@ -10,14 +10,14 @@ Non-technical users struggle to triage GitHub issues due to lack of familiarity 
 - **Interactive Wizard**: Human-in-the-loop confirmation for non-technical users.
 - **Dry-Run Mode**: Simulate triage without applying changes.
 
-## Usage
+## Installation
 
-### Prerequisites
-- Python 3.8+
-- GitHub personal access token (with `repo` scope)
-
-### Installation
 ```bash
+# Clone from the authenticated namespace
+git clone https://github.com/fairyfemirins/github-issue-wizard.git
+cd github-issue-wizard
+
+# Install dependencies
 pip install -r requirements.txt
 ```
 
@@ -76,5 +76,8 @@ flowchart TD
 | v1.0             | None                | v1.0                |
 | v2.0             | None                | v2.0                |
 
-## License
-MIT
+## Note
+
+This repository was published under `fairyfemirins` due to GitHub namespace restrictions. A transfer to `femirins` is pending.
+
+To request a transfer, open an issue in this repository or contact `@femirins` on GitHub.
